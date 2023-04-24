@@ -1,0 +1,50 @@
+.novoUsuario
+{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form
+{
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.form-control
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-control label
+{
+    margin-bottom: 0.5rem;
+}
+
+input
+{
+    color: black;
+}
+
+.form-control input
+{
+    padding: .5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn
+{
+    margin-top: 1rem;
+    background-color: darkcyan;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn:hover
+{
+    background-color: wheat;
+}

@@ -1,6 +1,6 @@
-import axios from "axios";
 import { useEffect, useState } from "react";
 import { Usuario } from "../types/Usuario";
+import usuarioFetch from "../constants/Api";
 import './Home.css'
 
 const Home = () =>
@@ -11,7 +11,7 @@ const Home = () =>
     {
         try
         {
-            const response = await axios.get("https://localhost:7099/api/v1/usuario");
+            const response = await usuarioFetch.get("/");
             const data = response.data;
             setUsuarios(data);
         } catch (error)
