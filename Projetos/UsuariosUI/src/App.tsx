@@ -1,14 +1,18 @@
 import './App.css'
+import './components/Navbar.css'
 import { Outlet } from "react-router-dom"
+import Navbar from './components/Navbar'
 
 function App()
 {
 
   return (
-    <>
-      <h1>CRUD REACT</h1>
-      <Outlet />
-    </>
+    <div className="App">
+      <Navbar />
+      <div className="container">
+        <Outlet />
+      </div>
+    </div>
   )
 }
 

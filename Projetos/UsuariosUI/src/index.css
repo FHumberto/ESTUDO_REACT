@@ -15,11 +15,22 @@ body
 
 p
 {
+  color: wheat;
   text-align: center;
+}
+
+ul
+{
+  list-style: none;
 }
 
 a
 {
   /** tira o underline dos links */
   text-decoration: none;
+}
+
+a:hover
+{
+  opacity: 1;
 }

@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // Pages
 import Home from "./routes/Home.tsx";
+import NovoUsuario from './routes/NovoUsuario.tsx';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/novo",
+        element: <NovoUsuario />,
       }
     ]
   }
