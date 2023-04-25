@@ -21,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/novo",
         element: <NovoUsuario />,
+      },
+      {
+        path: "/ler/:id"
+        Element: <Usuario />
       }
     ]
   }
